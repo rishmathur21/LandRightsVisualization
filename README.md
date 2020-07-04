@@ -2,13 +2,9 @@
 
 Final visualization project for DS4200 for Spring 2019 (Macro Picture of Land Tenure Index).
 
-Team members: Rishab Mathur, Isabel Tripp, Haig Bernard, Mounica Kamesam
+**Team members**: Rishab Mathur, Isabel Tripp, Haig Bernard, Mounica Kamesam
 
-Repository URL: https://github.ccs.neu.edu/DS4200-S19/L-Kamesam-Tripp-Mathur-Bernard
-
-Link to the Github Pages site: https://pages.github.ccs.neu.edu/DS4200-S19/L-Kamesam-Tripp-Mathur-Bernard/index.html
-
-**For Sprint 1 work: feel free to look at sprint1 branch.**
+**Link to the Github Pages site**: https://pages.github.ccs.neu.edu/DS4200-S19/L-Kamesam-Tripp-Mathur-Bernard/index.html
 
 **Directions for use**: 
 1. Select 1 - 3 countries from the eight African countries we display below the violin plots. 
