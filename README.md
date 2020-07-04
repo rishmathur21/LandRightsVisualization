@@ -1,6 +1,6 @@
 # L-Kamesam-Tripp-Mathur-Bernard
 
-Final visualization project for DS4200 (Macro LTI).
+Final visualization project for DS4200 for Spring 2019 (Macro Picture of Land Tenure Index).
 
 Team members: Rishab Mathur, Isabel Tripp, Haig Bernard, Mounica Kamesam
 
