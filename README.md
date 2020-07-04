@@ -1,4 +1,4 @@
-# L-Kamesam-Tripp-Mathur-Bernard
+# Land Rights Visualization
 
 Final visualization project for DS4200 for Spring 2019 (Macro Picture of Land Tenure Index).
 
