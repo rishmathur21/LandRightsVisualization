@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> DS 4200 LTRI Visualization </title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="countries.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!-- D3 dependency -->
+  <script src='https://d3js.org/d3.v4.min.js'> </script>
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="#home">Home: Final Visualization</a>
+    <a href="./instructions.html"> Instructions </a>
+    <a href="./motivation.html"> Motivation</a>
+    <a href="./data.html">Data</a>
+    <a href="./task.html">Analysis</a>
+    <a href="./designProcess.html">Design Process </a>
+    <a href="./dataAnalysis.html">Data Analysis</a>
+    <a href="./conclusion.html">Conclusion</a>
+  </div>
+
+  <div class="page-header">
+    <h3>Citizen Land Rights Perception vs. Legal Security Indicators by Nation</h3>
+  </div>
+
+  <div class="countryViz">
+    <div id="violin" class="violin"></div>
+    <script src='violin.js'></script>
+
+    <div class="countrynav">
+      <li><input type="checkbox" class="countryCheck" id="Burkina Faso" />
+        <label for="Burkina Faso"><img src="./LabeledCountries/BurkinaFaso.png" /></label>
+      </li>
+      <li><input type="checkbox" class="countryCheck" id="Cameroon" />
+        <label for="Cameroon"><img src="./LabeledCountries/Cameroon.png" /></label>
+      </li>
+      <li><input type="checkbox" class="countryCheck" id="Cote d'Ivoire" />
+        <label for="Cote d'Ivoire"><img src="./LabeledCountries/Coted_Ivoire.png" /></label>
+      </li>
+      <li><input type="checkbox" class="countryCheck" id="Liberia" />
+        <label for="Liberia"><img src="./LabeledCountries/Liberia.png" /></label>
+      </li>
+      <li><input type="checkbox" class="countryCheck" id="Madagascar" />
+        <label for="Madagascar"><img src="./LabeledCountries/Madagascar.png" /></label>
+      </li>
+      <li><input type="checkbox" class="countryCheck" id="Mozambique" />
+        <label for="Mozambique"><img src="./LabeledCountries/Mozambique.png" /></label>
+      </li>
+      <li><input type="checkbox" class="countryCheck" id="Rwanda" />
+        <label for="Rwanda"><img src="./LabeledCountries/Rwanda.png" /></label>
+      </li>
+      <li><input type="checkbox" class="countryCheck" id="Zambia" />
+        <label for="Zambia"><img src="./LabeledCountries/Zambia.png" /></label>
+      </li>
+
+    </div>
+  </div>
+
+  <div id="colorKey">
+    <img src="./LabeledCountries/colorspectrum.PNG"> </img>
+  </div>
+
+  <div id='indicatorBox'>
+    <h4>Legal Security Indicators of Indigenous and Community Land</h4>
+
+    <select id="indicators">
+      <option id="Avg_Scr">Average</option>
+      <option id="I1_Scr">Legal Status</option>
+      <option id="I2_Scr">Land Rights & Common Property</option>
+      <option id="I3_Scr">Formal Documentation</option>
+      <option id="I4_Scr">Legal Person</option>
+      <option id="I5_Scr">Legal Authority</option>
+      <option id="I6_Scr">Perpetuity</option>
+      <option id="I7_Scr">Right to Consent Before Land Acquisition</option>
+      <option id="I8_Scr">Rights to Trees</option>
+      <option id="I9_Scr">Rights to Water</option>
+      <option id="I10_Scr">Land Rights in Protected Areas</option>
+    </select>
+    <br>
+    <p id="indicatorText">Average score for the 10 indicators of indigenous land legal security.</p>
+
+  </div>
+
+  <div id='questionBox'>
+    <h4>Prindex Land Rights Survey</h4>
+    <form id="questions">
+      <div class="checkbox">
+        <label><input type='radio' id="q45" name="mode" checked> Question 45</label>
+      </div>
+      <div class="checkbox">
+        <label><input type='radio' id="q46" name="mode"> Question 46</label>
+      </div>
+    </form>
+
+    <p id="questionText">
+      How worried are you that you could lose the right to use this property, or part of this property, against your
+      will in the next 5 years? </p>
+    <p id="question6">6 : Refused</p>
+    <p id="question5">5 : Don't know</p>
+    <p id="question4">4 : Very worried</p>
+    <p id="question3">3 : Somewhat worried</p>
+    <p id="question2">2 : Not worried</p>
+    <p id="question1">1 : Not worried at all</p>
+  </div>
+
+  <script src='selectionChange.js'></script>
+
+
+</body>
+
+</html>
