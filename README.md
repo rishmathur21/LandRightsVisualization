@@ -5,6 +5,7 @@ Final visualization project for DS4200 for Spring 2019 (Macro Picture of Land Te
 **Team members**: Rishab Mathur, Isabel Tripp, Haig Bernard, Mounica Kamesam
 
 **Link to presentation and analysis**: https://drive.google.com/drive/folders/1DYja-_ckYqjT9bCXswGtCE92_moGP_bJ?usp=sharing
+
 **Link to the Github Pages site**: https://pages.github.ccs.neu.edu/DS4200-S19/L-Kamesam-Tripp-Mathur-Bernard/index.html
 
 **Directions for use**: 
